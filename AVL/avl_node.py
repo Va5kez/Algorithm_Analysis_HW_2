@@ -43,6 +43,6 @@ class Node(object):
     def print_nodes(self):
         if self.left_child is not None:
             self.left_child.print_nodes()
-        print(self)
+        print self
         if self.right_child is not None:
             self.right_child.print_nodes()
